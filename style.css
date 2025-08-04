@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+        display: flex;
+        background-color: bisque;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+}
+body {
+         height: 300px;
+}
+.logo{
+        color: rgb(224, 18, 45);
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: bold;
+}
+nav a{
+        color:rgb(224, 18, 45) ;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600px;
+        padding-left: 20px;
+}
+nav a:hover{ 
+        border-radius: 10px;
+        color: rgb(236, 48, 110);
+        font-weight: 900;
+}
+.content{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background-image: url('https://th.bing.com/th/id/R.33bb4491dbdb786744bacdcc0187730e?rik=GZ45QDF3swHOhw&pid=ImgRaw&r=0');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+.content h2
+{
+      color: white;
+      font-size: 35px;
+
+}
+      .content h3{
+        color: white;
+        font-size: 50px;
+        font-weight: bold
+       
+    
+}
+section{
+    padding: 10px 50px;
+    
+}
+.content h2 span{
+        color: rgb(224, 18, 45);
+}
+.contact_My{
+        display: inline-block;
+         color: white;
+         background-color:rgb(224, 18, 45);
+         text-decoration: none;
+         padding: 5px 15px;
+         border-radius: 10px;
+         margin-bottom: 30px;
+         font-weight: 600px;
+         transition: 0.5s ease;
+}
+.contact_My:hover{  
+        background-color: blue;
+        transform: scale(1.2);
+                 }
+
+.social a{
+        
+         color: white;
+         font-size: 30px;
+        padding-right: 15px;   
+        position: relative; 
+        top: 170px;
+        right: 500px;
+}
+.Our-services{
+        text-align: center;
+        background-color: bisque ;
+}
+.services{
+        display: flex;
+}
+ .Our-services h2{
+         color: rgb(224, 18, 45);
+         font-size: 35;   
+ }
+ .Our-services p{
+        color: black;
+        font-size: 20px;
+        margin-bottom: 10px;
+ }
+ .service{
+        background-color: rgba(56, 204, 160, 0.137);
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(224, 18, 45);
+
+ }
+ .services i{
+        color: rgb(224, 18, 45);
+        font-size: 40px;
+        
+ }
+ .box{
+        transition: all 0.5s ease;
+ }
+.box h3{
+       font-size: 26px;
+} 
+.service:hover{
+        background-color:rgba(56, 204, 160, 0.253) ;
+        border-radius: 5px;
+        box-shadow: 0 4px 4px  rgb(224, 18, 45);
+        transform: scale(1.03);
+}
+.vi {
+        padding-right: 70px;
+        padding-left: 20px;
+}
+.portfolio {
+   text-align: center;
+   background-color:bisque ;
+}
+.img1{
+   display: flex;
+}
+.m{
+        position: relative;
+        bottom: 177px;
+        left: 190px;
+}
+.ma{
+        position: relative;
+        bottom: 347px;
+        left: 805px;
+}
+.portfolio h2{
+        color: rgb(224, 18, 45);
+        font-size: 35;
+}
+.portfolio p{
+        text-align: center;
+        width: 900px;
+        color: black;
+        font-size: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        left: 200px;
+}
+.contact_us{
+        text-align: center;
+        background-color:bisque  ;
+}
+.contact_us h2{
+        color: rgb(224, 18, 45);
+        font-size: 35;   
+}
+.contact_us p{
+       color: black;
+       font-size: 20px;
+       margin-bottom: 10px;
+}
+.contact_area{
+       background-color: rgba(207, 207, 172, 0.459);
+       width: 50%;
+       margin: 10px auto;
+       padding: 35px;
+       border: 1px solid  rgb(224, 18, 45);
+       border-radius: 10px;
+       
+}
+.form_input input{
+        width: 60%;
+        height: 40px;
+        margin-bottom: 2px;
+       border: 1px solid  rgba(26, 26, 22, 0.808);
+       border-radius: 10px;
+}
+.form_input textarea{
+        width: 60%;
+        margin-bottom: 2px;
+       border: 1px solid  rgba(26, 26, 22, 0.808);
+       border-radius: 10px;
+}
+.send{
+        width: 85px;
+        font-size: 16px;
+        color: white;
+        background-color: rgb(224, 18, 45) ;
+        border-radius: 5px;
+       border: none;
+       cursor: pointer;
+}
+.send:hover{
+        background-color:rgba(240, 11, 87, 0.651);
+}
+footer{
+        border-top: 5px solid  rgb(224, 18, 45);
+        background-color:   rgba(207, 207, 172, 0.877);
+        padding: 10px;
+        text-align: center;
+}
+footer p{
+        color: black;
+        font-size: 20px;
+}
+footer  i{
+        font-size: 22px;
+        padding: 5px;
+        color:rgb(224, 18, 45) ;
+}
